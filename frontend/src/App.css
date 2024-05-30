@@ -1,0 +1,94 @@
+/* Styles for the form container */
+.code-submission-form {
+  max-width: 500px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 30px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  background-color: #f6f8fa;
+}
+
+/* Styles for form groups */
+.form-group {
+
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.form-group-code {
+  margin-bottom: 30px; /* Increase bottom margin for spacing */
+}
+
+/* Styles for label */
+.form-group-code label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+/* Styles for code textarea */
+.form-group-code textarea {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  padding: 1px; /* Increase padding for larger input fields */
+  border: 1px solid #e3e3e3; /* Increase border width for emphasis */
+  border-radius: 5px; /* Increase border radius for rounded corners */
+  font-size: 18px; /* Increase font size for better readability */
+}
+
+/* Styles for labels */
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Styles for text inputs and textareas */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for the submit button */
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles for the disabled submit button */
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styles for error and success messages */
+.error-message,
+.success-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Styles for error messages */
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Styles for success messages */
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+}
